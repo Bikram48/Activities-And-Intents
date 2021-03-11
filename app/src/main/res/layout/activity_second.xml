@@ -18,17 +18,26 @@
                 android:id="@+id/articleTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="paragraph1"/>
+                android:gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:textSize="30sp"
+                android:textColor="@color/textTitle"
+                />
             <TextView
                 android:id="@+id/subTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="paragraph1"/>
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
             <TextView
                 android:id="@+id/paragraph"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="paragraph1"/>
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

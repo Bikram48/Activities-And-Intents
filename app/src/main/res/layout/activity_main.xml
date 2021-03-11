@@ -12,41 +12,20 @@
         android:id="@+id/textOneBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_shape"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:text="Text One"
-        android:textColor="@color/white"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        android:textSize="20sp"/>
+        android:text="@string/btn_text_one"
+        style="@style/btnStyle" />
 
     <Button
         android:id="@+id/textTwoBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_shape"
-        android:text="Text Two"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:textColor="@color/white"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        android:textSize="20sp"/>
+        android:text="@string/btn_text_two"
+        style="@style/btnStyle" />
 
     <Button
         android:id="@+id/textThreeBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_shape"
-        android:text="Text Three"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:textColor="@color/white"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        android:textSize="20sp"/>
+        android:text="@string/btn_text_three"
+        style="@style/btnStyle" />
 </LinearLayout>

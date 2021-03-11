@@ -31,19 +31,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        Intent intent=new Intent(MainActivity.this,SecondActivity.class);
+
         switch (v.getId()){
             case R.id.textOneBtn:
-                intent.putExtra("text_one","paragraph1");
+                Intent intent=SecondActivity.setIntent(MainActivity.this,"paragraph1");
                 startActivity(intent);
                 break;
             case R.id.textTwoBtn:
-                intent.putExtra("text_two","paragraph2");
-                startActivity(intent);
+                Intent intent1=SecondActivity.setIntent(MainActivity.this,"paragraph2");
+                startActivity(intent1);
                 break;
             case R.id.textThreeBtn:
-                intent.putExtra("text_three","paragraph3");
-                startActivity(intent);
+                Intent intent2=SecondActivity.setIntent(MainActivity.this,"paragraph3");
+                startActivity(intent2);
                 break;
             default:
                 break;
